@@ -1,0 +1,48 @@
+h1,h2,h3{
+font-family:'sora',sans-serif;
+font-weight:60%;
+line-height:90%;
+letter-spacing:-1px;
+color:var(--White);
+}
+
+h1{font-size:2.8rem;
+color:var(--gray-colors-100);}
+
+h2{font-size:1rem;}
+
+h3{font-size:1rem;}
+
+p{color:var(--White)}
+
+.menu-item{
+    display: block;
+    background-color:var(--gray-colors-50);
+    padding: 1.4rem 2.2rem;
+    font-size: 1.5rem;
+    line-height: 50%;
+    letter-spacing:-0.1rem;
+    color:var(--gray-colors-400); 
+    transition:all .3s;}
+
+.btn-primary{
+    font-family:'sora',sans-serif;
+    display: inline-block;
+    background-color:var(--brand-colors-orage);
+    padding:1.4rem 2.2rem;
+    font-weight:400;
+    letter-spacing:-0.01em;
+    color:var(--brand-colors-100);
+    transition:transform .3s;
+}
+
+.btn-primary:hover{
+    transform:scale(1.05);
+}
+
+
+.menu-item:hover{
+    background-color:#acb4bf;
+    color:var(--white);
+
+}
